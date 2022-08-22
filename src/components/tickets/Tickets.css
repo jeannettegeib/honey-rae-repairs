@@ -1,0 +1,29 @@
+.tickets {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket {
+    background-color: rgb(148, 213, 148);
+    border: 1px dotted darkgray;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+.ticket_delete{
+    margin-left: auto;
+    background-color: lightgoldenrodyellow
+}
+
+.ticket_finish{
+    margin-left: auto;
+}
+.ticket_complete{
+    margin-left: auto;
+}
+
+.ticket_footer{
+    display: flex;
+    padding: 1rem 0 0 0;
+    border-top: 1px dashed darkgray;
+    margin: 1rem 0 0 0;
+}
